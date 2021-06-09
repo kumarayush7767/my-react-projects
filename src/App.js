@@ -1,13 +1,4 @@
 import React from "react";
-import Home from "./components/Home";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  useRouteMatch,
-  useParams
-} from "react-router-dom";
 import Dropdown from './components/Dropdown';
 export default function App() {
   return (
